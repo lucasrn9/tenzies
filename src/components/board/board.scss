@@ -1,0 +1,45 @@
+@use "../../scss/colors" as *;
+@use "../../scss/fonts" as *;
+
+.board {
+    max-width: 320px;
+    // max-height: 320px;
+    padding: 2.125rem;
+    border-radius: 10px;
+    background-color: $boardBackground-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-headings{
+    text-align: center;
+    .board-title{
+    font-family: $primary-font;
+    font-weight: 700;
+    font-size: 1.563rem;
+    margin: 0 0;
+    }
+
+    .board-instructions{
+    font-family: $secondary-font;
+    font-weight: 400;
+    font-size: 0.813rem;
+    color: $font-secondary-color;
+    margin: 0;
+    }
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.board-win-msg{
+    font-family: $primary-font;
+    font-weight: 700;
+    font-size: 1.563rem;
+    margin: 1.563rem 0 0 0;
+}

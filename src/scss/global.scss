@@ -1,0 +1,11 @@
+@use "./colors" as *;
+
+body {
+    background-color: $background-color;
+    margin: 0;
+    height: 100vh;
+}
+
+#root{
+    height: 100%;
+}
